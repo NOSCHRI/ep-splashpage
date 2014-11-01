@@ -152,3 +152,192 @@ text-align:center;
 				-ms-transition: all 0.5s ease;
 						transition: all 0.5s ease;
 }
+
+/* MEDIA LEVEL#1 - SMALL*/
+ @media screen and (max-width: 480px) {
+
+.socialbar {
+	position:absolute;
+	left:5%;
+	right:5%;
+	bottom:0;
+}
+.socialbar img{
+	height:30px;
+	width:auto;
+	padding:0px 0px 0px 0px !important;
+}
+.wrapper{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+	line-height:80px;
+}
+body {
+	font-size:40px;
+}
+.cl-effect-2 a {
+	line-height: 28px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	text-decoration:none;
+	color:black;
+}
+
+.cl-effect-2 a span {
+	position: relative;
+	display: block;
+	background-color: black;
+	color:white;
+	padding-top:10px;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.csstransforms3d .cl-effect-2 a span::before {
+	position: absolute;
+	text-align:center;
+	color:white;
+	background-color: black;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	padding-top:10px;
+	content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-10px);
+	-moz-transform: rotateX(90deg) translateY(-10px);
+	transform: rotateX(90deg) translateY(-10px);
+
+}
+
+.csstransforms3d .cl-effect-2 a:hover span::before,
+.csstransforms3d .cl-effect-2 a:focus span::before {
+	background-color: white;
+	color:black;
+	text-align:center;
+	position:absolute;
+}
+
+
+
+
+}
+
+
+
+/* MEDIA LEVEL#3 - LARGE*/
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+
+.socialbar {
+	position:absolute;
+	left:5%;
+	right:5%;
+	bottom:0;
+}
+.socialbar img{
+	height:40px;
+	width:auto;
+	padding:0px 15px 0px 15px !important;
+}
+.wrapper{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+}
+body {
+	font-size:100px;
+}
+.cl-effect-2 a {
+	line-height: 60px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	text-decoration:none;
+	color:black;
+}
+
+.cl-effect-2 a span {
+	position: relative;
+	display: block;
+	background-color: black;
+	color:white;
+	padding-top:20px;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.csstransforms3d .cl-effect-2 a span::before {
+	position: absolute;
+	text-align:center;
+	color:white;
+	background-color: black;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	padding-top:20px;
+	content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-10px);
+	-moz-transform: rotateX(90deg) translateY(-10px);
+	transform: rotateX(90deg) translateY(-10px);
+
+}
+
+.csstransforms3d .cl-effect-2 a:hover span::before,
+.csstransforms3d .cl-effect-2 a:focus span::before {
+	background-color: white;
+	color:black;
+	text-align:center;
+	position:absolute;
+}
+
+
+}
