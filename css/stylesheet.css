@@ -56,7 +56,7 @@ text-transform:uppercase;
 
 
 
-
+/* ----------- 3D BLOCK ANIMATIONS ----------------*/
 
 .cl-effect-2 a {
 	line-height: 80px;
@@ -122,9 +122,13 @@ text-transform:uppercase;
 	position:absolute;
 }
 
+/* ----------- SIMPLIFIED MEDIA QUERY DISABLE ----------------*/
+
 .media{
 	visibility:hidden;
 }
+
+/* ----------- SOCIALBAR ----------------*/
 
 .socialbar {
 position: absolute;
@@ -135,7 +139,6 @@ text-align:center;
 
 
 }
-
 
 .socialbar img{
 	height:35px;
@@ -162,7 +165,12 @@ text-align:center;
 						transition: all 0.5s ease;
 }
 
-/* MEDIA LEVEL#1 - SMALL*/
+
+
+
+
+
+/* ----------- MEDIA LEVEL#3 - iPAD ----------------*/
  @media screen and (max-width: 480px) {
 
 .socialbar {
@@ -221,7 +229,7 @@ body p{
 
 
 
-/* MEDIA LEVEL#3 - LARGE*/
+/* ----------- MEDIA LEVEL#3 - iPAD ----------------*/
 @media screen and (min-width: 640px) and (max-width: 1024px) {
 
 .socialbar {
@@ -258,7 +266,7 @@ body p{
 
 .endless, .possibilities{
 	text-align:center;
-	line-height:90px;
+	line-height:80px;
 }
 
 
