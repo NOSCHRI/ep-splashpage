@@ -168,13 +168,7 @@ text-align:center;
 	padding:0px 0px 0px 0px !important;
 }
 .wrapper{
-	position: absolute;
-	top: 45%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	text-align:center;
-	line-height:80px;
+
 }
 body {
 	font-size:40px;
