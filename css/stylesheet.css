@@ -165,6 +165,8 @@ text-align:center;
 	left:5%;
 	right:5%;
 	bottom:0;
+	background-color:black;
+
 
 }
 .socialbar img{
@@ -222,6 +224,7 @@ body p{
 	left:5%;
 	right:5%;
 	bottom:0;
+	background-color:black;
 
 }
 .socialbar img{
@@ -250,7 +253,7 @@ body p{
 
 .endless, .possibilities{
 	text-align:center;
-	line-height:70px;
+	line-height:80px;
 }
 
 
